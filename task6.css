@@ -1,0 +1,25 @@
+form{
+    vertical-align: 400px;
+}
+body{
+    vertical-align: 400px;
+}
+div{
+    background-color: aliceblue;
+    width: 400px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h1,h6{
+    text-align: center;
+}
+#Name,#Email,#Phone,#button{
+    width: 100%;
+}
+#date,#time{
+    width: 3250%;
+}
+#button{
+    background-color: aqua;
+}
