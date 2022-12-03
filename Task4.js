@@ -1,7 +1,17 @@
-items = document.getElementsByClassName('list-group-item');
+// items = document.getElementsByClassName('list-group-item');
 
-items[2].style.backgroundColor = 'green';
+// items[2].style.backgroundColor = 'green';
 
-for(var i=0;i<items.length;i++){
-    items[i].style.fontWeight = 'bold';
+// for(var i=0;i<items.length;i++){
+//     items[i].style.fontWeight = 'bold';
+//        Task 5
+//        items[i].style.backgroundColor = 'gray';
+// }
+
+
+
+// Task 5
+li = document.getElementsByTagName('li');
+for(var i=0;i<li.length;i++){
+    li[i].style.backgroundColor = 'gray';
 }
